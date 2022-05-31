@@ -1,0 +1,33 @@
+.coin{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid lightgray;
+    padding: 8px;
+    background-color: white;
+}
+.coin:hover{
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+}
+.coin span{
+    padding-right: 17px;
+    padding: 10px;
+}
+.Name{
+    display: flex;
+    align-items: center;
+}
+.Name span{
+    font-weight: 500;
+}
+.Name img{
+    height: 20px;
+    width: 20px;
+}
+.change{
+    color:rgb(28, 189, 28);
+    
+}
+.changeRed{
+    color:red
+}
